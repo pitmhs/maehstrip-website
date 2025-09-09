@@ -461,6 +461,12 @@ footer {
     .services-grid {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    /* Align hero CTAs to the left on desktop */
+    .hero-buttons {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }
 
 
